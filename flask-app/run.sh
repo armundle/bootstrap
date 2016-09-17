@@ -1,4 +1,4 @@
-source $1
+source ${ENV_FILE}
 export DEBUG PORT
 
 python app.py
